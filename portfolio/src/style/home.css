@@ -1,0 +1,61 @@
+.img {
+  width: 125px;
+  scale: 1;
+  border-radius: 50%;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 30px;
+  height: 135px;
+  background: #455d7a;
+}
+
+.conact-container {
+  margin-left: auto;
+}
+
+.name {
+  font-family: cursive;
+  font-size: 30px;
+  color: #f76b8a;
+  text-align: left;
+  margin-left: 20px;
+}
+.title {
+  color: #f76b8a;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.contact-img {
+  width: 50px;
+  scale: 1;
+  margin-right: 20px;
+}
+
+.contact-img.shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+/* Keyframes for shake animation */
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
